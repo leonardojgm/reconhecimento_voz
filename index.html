@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo Mario</title>
+        <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/functions.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <header id="cabecalho-principal">
+                <div id="pontuacao-jogo">
+                    <img src="img/moeda.png" alt="Moeda" height="20px">
+                    <span>Moedas:&nbsp;&nbsp;</span> 
+                    <span id="pontuacao-atual">0</span>
+                </div>
+                <div id="nome-jogo">Desafio Cores em Inglês do Super Mario</div>
+            </header>
+            <section id="corpo">
+                <div id="esquerda">
+                    <h3>FALE O NOME DA COR EM INGLÊS</h3>
+                    <span id="cor-na-caixa">Yellow</span>
+                    <div id="cor-atual"></div>
+                    <button id="btn-responder">RESPONDER</button>
+                </div>
+                <div id="direita">
+                    <img src="img/mario.png" alt="Mario" height="390px">
+                </div>
+            </section>
+            <footer id="rodape">
+                <img src="img/logo-dio.png" alt="Dio" height="90px">
+            </footer>
+        </div>
+    </body>
+</html>
